@@ -1,2 +1,5 @@
 # Desafio-Dio-
-Desafio do Bootcamp da Dio " Introdução ao git/github"
+Repositório desatinado ao desafio de Projeto
+
+## links úteis
+[Documentação básica](https://www.markdownguide.org/basic-syntax/)
