@@ -1,0 +1,41 @@
+
+___________COMANDOS TERMINAL WINDOWS E LINUX___________ 
+Windows → dir - lista todos arquivos no terminal
+linus → ls - lista todos arquivos no terminal
+-----------------------------------------------------
+windows → cd / - leva para o diretório c: 
+	  cd nome da pasta - entra na pasta
+
+linux → cd / - leva para o diretório c:
+	cd nome da pasta - entra na pasta
+-----------------------------------------------------
+windows → cd .. volta na pasta anterior 
+
+linux → cd .. - volta na pasta anterior
+------------------------------------------------------------
+windows → cls - limpa o terminal
+
+linux → clear - limpa o terminal ou ( crtl + l )
+------------------------------------------------------------
+windows → cd primeira letra + TAB ( tras a palavra inteira de acordo com primeira letra )
+
+linux → 
+------------------------------------------------------------
+windows → mkdir workspace - cria uma pasta no diretório
+
+linux → mkdir workspace - cria uma pasta no diretório
+------------------------------------------------------------
+windows →( echo palavra ) comando que retorna a palavra no terminal
+	   echo palavra > palavra.txt 
+# echo escreve palavra simbolo ( > ) cria um .txt com palavra dentro
+
+linux → os mesmos passos de windows
+------------------------------------------------------------
+windows → del (nome da pasta) - deleta o arquivo dentro da pasta
+			      - não deleta a pasta
+	
+	→ rmdir (nome da pasta) /S /Q - deleta pasta seus arquivos
+=================================================================
+linux → rm -rf (nome da pasta) - deleta pasta seus arquivos
+ 
+mv (nome do arquivo) ./nome_pasta/ # move arquivo para pasta

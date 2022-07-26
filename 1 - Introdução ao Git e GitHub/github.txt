@@ -1,0 +1,87 @@
+# - 3 OBJETOS DO GIT RESPONSAVEL PELO VERSIONAMENTO DO CÓDIGO ---
+
+1 .______________ Estrutura BLOB ( bolhas ) __________________
+# blob não guarda o nome dos arquivos, guarda só o sha1 
+
+    ( echo "conteudo" | git hash-object --stdin ) ← COM GIT
+	→ --stdin espera receber um arquivo
+	
+    ( echo -e "conteudo | openssl sha1 ) ← SEM GIT
+     # gera uma chave diferente
+     contém tamanho, tipo, metadados, \0, conteudo do arquivo
+
+    ( echo -e "blob 9\0conteudo" | opensl sha1 
+     # gera a mesma chave do código com o GIT 
+
+2 .__________________ TREE ( ARVORES )________________________
+
+    # também contém metadados, e guarda o nome do arquivo
+    # armazena BLOBS,aponta para um BLOB     
+    contém. \0 
+     
+3 ._______________________ COMMIT ___________________________
+ # Aponta para uma arvore, parente, autor, menssagem
+ # da significado  ao bloco de arquivos 
+     
+     tree → parente → autor → menssagem → timestamp
+
+se houver alteração numa blob gera um sha1, 
+no qual altera os metadados da arvore, no qual aponta para 
+um commit que pode apontar para outras arvores
+
+=========================== GIT/GITHUB ===============================================
+
+#_____________ GERAR UMA CHAVE SSH GitHuB ________________
+1 - login no github → settings → SSH and GPG 
+2 - Abrir terminal GitBash e gigitar os comandos abaixo
+3 - ssh-keygen -t ed25519 -C seuemail@gmail.com
+4 - Enter file in which to save the key (/c/Users/Diogo Gamer/.ssh/id_ed25519) aperte enter
+5 - Enter passphrase (empty for no passphrase): digite uma senha qualquer que vc lembre depois
+6 - digite novamente a senha e aperte enter
+7 - senha gerada !
+_____________ MOSTRA A CHAVE .PUB ( PUBLICA ) ____________
+1 - cat id_ed25519.pub ( aperte enter )
+2 - ativar a chave na máquina → eval $(ssh-agent -s) , aperte enter 
+3 - entregar a chave para funcionar → passo 4
+4 -  ssh-add id_ed25519 → chave privada → aperte enter
+5 - digite a mesma senha da chave criada anteiormente no terminal
+_____________ CLONAR REPOSITÓRIO GITHUB ____________________
+1 - git clone ( endereço ssh do repositório )
+2 - digite yes
+3 - clonado
+__________ GERAR CHAVE DE ACESSO COM PESSOAL LOGIN E PASS ____________
+1 - DEVELOPER SETTINGS → personal acsses tokkens → generate tokken
+2 - colocar nome
+3 - marcar opção "repo"
+4 - a chave gerada não será salva no github copie-a e cole-a 
+em um local seguro
+5 - chave → (personal tokken)
+6 - esse tokken usa-se o acesso https e não o ssh
+
+__________ iniciando git e criando commit ____________________
+mkdir livro-receitas # cria um repositório ( pasta )
+cd livro-receitas/ # entra na pasta
+git init # inicia o git
+ls - a # verifica a pasta oculta do git
+cd .git/ # para entrar na pasta do git
+mv (nome do arquivo) ./nome_pasta/ # move arquivo para pasta
+
+_________ Empurrar projeto de local para remoto ____________
+1 - add origem → git remote add origin (endereço repo)
+1 - se acaso repositorio novo → git remote set-url origin (endereço repo)
+2 - listar repo → git remote -v
+3 - verificar se existe alteração → git status
+4 - se existir alteração → git commit -m "nome da alteração"
+5 - aponta para o branch master → git branch -M master
+6 - empurrar → git push origin master
+7 - vai solicitar acesso clique de preferencia usa chave acesso personal
+8 - cole a chave → (personal tokken)→ ENTER 
+______________________ puchar o projeto _______________________
+1 - git pull origin master
+
+_______________________ clonar um projeto ______________________
+1 - git clone ( endereço https do projeto )
+# diferença de um de um repositorio clone de uma pasta comum
+	→ ls -a → se tiver a pasta ./git , é um repositório
+
+ 
