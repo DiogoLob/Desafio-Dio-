@@ -1,0 +1,99 @@
+---------- ---------- O QUE É INTERNET ? ---------- ---------- 
+1 - Nome antigo: "Arpanet departamento de defesa"
+2 - Sigla WWW : Wolrd Wide Web
+3 - 1988 Acordo para trazer a internet ao brasil
+4 - 1994 Embratel financia uso comercial da internet discada
+5 - 2000 - Banda larga chega ao brasil
+6 - O primeiro domínio registrado foi o symbolics.com, em 1985, 
+    por uma fabricante de computadores em Massachusetts, 
+    nos Estados Unidos.
+
+__________________ TERMOS-CHAVE __________________
+1 - download/upload → baixar, enviar
+3 - banda larga → tipo de conexao especifica
+4 - cache → arquivos previamente salvos no computador
+5 - crack → pirataria de software
+6 - email → correio eletronico
+9 - hostes → espécie de servidor 
+10 - html → linguagem de marcação
+11 - http → protocolo de internet
+12 - link → ligação
+13 - url → endereço de um site, publicação, chamada de video...
+14 - keyloger → virus que captura informações digitadas do teclado
+15 - phishing → emails falsos com combranças falsas
+16 - (cyber)bullying → difamações....
+17 - cookies → pequenos registros de ações na internet
+18 - IP → endereço, identificador
+
+---------- ---------- FUNCIONA A INTERNET ---------- ---------- 
+1 - rede → comunicação dinamica entre computadores
+2 - backbone(espinha drosal) → fornece o suporte central para que múltiplas redes
+3 - Provedor de acesso → dial-up, adsl, fibra, rádio, satélite, móvel, p2p*
+4 - caminho inverso →  [www ← dnv ← ip ← Classes de redes ← 127.0.0.1]
+
+---------- TCP/IP, PORTAS, ROTEADORES, SWITCHES, MODEMS ---------- 
+1 - TCP → Prootocolo de controle de transmissão	
+1 - /IP → Protocolo de internet
+2 - Etapas de transmissão → física ( placa de rede )
+			  → Rede ( IP )
+			  → transporte ( TCP, UDP)
+	                  → Aplicação ( FTM, SMTP, HTTP )
+3 - TCP X UDP 
+    • UDP → rápido, não confiável, serve para livestreams
+    • TCP → voltado a conexão, handshake, dados ordenados, app de menssagem de texto
+
+_____________________ PORTAS: PORTS ________________________
+1 - 20:FTP → envio de arquivos
+2 - 22:SSH → conexão segura
+3 - 25:SMTP → envio de emails
+4 - 53:DNS → tradutor de ip pra nome 
+5 - 80: HTTP → REQUISIÇÃO SIMPLES 
+6 - 443: HTTPS → REQUISIÇÃO SEGURA
+
+______________________ MODEM __________________________
+1 - (Mo)dulator (dem)odulator
+  • demodula dados para usuarios compreenderem
+
+______________________ ROTEADOR _______________________
+1 - Distribuidor de internet entre redes
+
+____________________________ SWITCH __________________________
+1 - Distribuidor de internet inteligente
+
+___________________________ Exercicio ______________________________
+1 - Portas do Gmail : SMTP (TLS): 587. Porta Gmail SMTP (SSL): 465.
+2 - mysql → porta 3306
+3 - apache → A porta HTTPS padrão para o Apache é a porta 443
+
+--------------- CELULAR, INTERNET, DISPOSITIVOS ---------------- 
+1 - Dados móveis → SMS → Custo 0, troca constante de menssagens 
+		 → transmissão de mídia ( audio, vídeos )
+
+2 - Conexões móveis → 1G, 2G, GPRS, EDGE, 3G, 4G, 5G
+3 - wi-Fi → IEEE 802.11, tipos : a,b g, n
+
+4 - Segurança : WEP  → 64bits e 128bits
+		WPA → sempre troca a chave 
+		WPA2 → AES ( 802.11i), + seguro + processamento
+
+5 - dispositivos na rede : impressora, scanner, chromecast
+6 - Bluetooth → Conexão de ponto-a-ponto 
+
+_______________ browser, sites, aplicativos, webserver _______________ 
+1 - Browser → Um navegador de rede, navegador web, navegador da internet 
+              ou simplesmente navegador, é um programa que habilita 
+              eus usuários a interagirem com documentos HTML hospedados em um servidor da rede
+
+2 - Web-server → estático e dinamico
+
+__________________________________STACK __________________________________
+
+ - Pilhas de tecnologia, um conjunto de tecnologia necessário e suficiente
+para executar um aplicativo/programa 
+
+Front-End: "parte da frente, intercafe, UI, UX, HTML, CSS, JQUERY/JS/AJAX..
+
+Back-End: "parte de tras", BD, Java, node.js
+
+
+
