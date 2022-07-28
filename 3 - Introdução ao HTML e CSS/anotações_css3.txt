@@ -1,0 +1,25 @@
+____________________ REGRA CSS __________________________
+__
+Seletores :	# são elementos HTML (a,p,h1,h3)
+declarações: 	# {color: blue; font-size: 14px}
+
+____________________ ID X CLASSE _____________________________
+
+→ Id e Classes representa qualquer tipo de elementos
+→ o id so pode aparecer uma vez em uma pagina
+→ <link rel="stylesheet" href="style.css"> chama arquivo css
+
+#id	# identificador único para um elemento
+.class	# identifica um grupo de elementos
+
+___________________ CONCEITOS BÁSICOS ________________________
+
+Box model  # margin : espaçamento entre elementos
+	   # border : circundam o padding e conteúdo
+	   # padding: espaço entre borda e conteudo
+	   # content: representa conteudo contido
+
+_______________________ ESTILO_______________________ 
+boa pratica: manter as margens sempre na mesma direção
+margin: auto; → cria espaçamento na esquerda e direita 
+

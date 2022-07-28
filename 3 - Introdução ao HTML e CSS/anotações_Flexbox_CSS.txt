@@ -1,0 +1,36 @@
+_____________________ FLEX CONATINER _________________________
+
+Tag que envolve os itens  a propiedade 
+- display:flex	# Alinha os items filhos de uma propiedade
+
+---------------------- PROPIEDADES RELACIONADAS -----------------------
+
+• display 	 # inicializador do container
+• flex-direction # direciona items em linha, coluna
+• flex-wrap	 # aplica para quebra de linha
+• flex-flow	 # abreviação do direction e wrap
+• justify-content# alinha items do container de acordo com sua direção
+• align-items	 # alinha os items de acordo com seu eixo do container
+• align-content	 # alinha as linhas de um container
+
+____________________________ FLEX ITEM __________________________________
+
+→ Flex item são elentos filhos diretos do flez container, também podem
+se tornar Flex container
+
+• flex-grow	# define o fator de crescimento
+• flex-basis	# define o tamanho inicial antes da distribuição do espaço no container
+• flex-shrink	# define a capacidade de redução
+• flex		# abreviação de grow, basis e shrink
+• order		# ordem de distruibuição e listagem dos items
+• align-self	# define o alinhamento de um item especifico de um container
+
+______________________ FUNDAMENTOS DO FLEX BOX ___________________________
+
+--------------------------------------------------------------------------
+Atalhos ↓
+	div.nome_classe*2 → cria duas divs com mesmo nome_classe
+	li*5 + TAB	  → cria cinco lis com mesmo 
+
+
+--------------------------------------------------------------------------

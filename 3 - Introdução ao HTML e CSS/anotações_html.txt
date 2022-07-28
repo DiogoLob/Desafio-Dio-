@@ -1,0 +1,41 @@
+_____________________ ESTRUTURA BÁSCIA _____________________ 
+<!DOCTYPE html> # comunica que é um doc. HTML
+<html>		# todo contúdo esta dentro dessa tag
+<head>		# informações que buscador de internet necessita
+<meta>		# encoding dos caracteres 
+<title></title>	# titulo da aba
+</head>		# fecha elemento head
+<body>		# conteúdo da página
+</body>		# fecha a tag body
+</html>		# fecha a tag html
+
+_____________________ SEMÂNTICA _____________________ 
+
+<div> 		# era um elemento padrão 
+<section>	# representa seção genérica de conteudo ( artigos )
+<header>	# cabeçalho de pagina ou parte de uma pagina
+<article>	# artigo de um blog
+<aside>		# biografia, link de autor, barra laterais..
+<footer> 	# rodapé de paginas
+<h1><h6> 	# Titulos de paginas, pode haver 1 h1 por pagina
+
+____________________ TEXTOS E LINKS ______________________________
+
+<h1></h1>	
+<h2></h2>
+<h3></h3>
+<p></p>			# Representa paragrafos, pode-se add imagens, textos, entre outros
+<a href="link">		# uma âncora que aponta para links especificos 
+<a href="mailto:email"> # aponta para um endereço de email
+<a terget="_blank">	# "_blank" faz com que a pag abra em uma nova aba
+
+_______________________ IMAGENS ___________________________________
+
+<img>			     # representa uma imagem na pagina html
+<img src="img/avatar.jpg">   # adciona uma imagem a pagina 
+<img alt="meu avatar">	     # mostra descrição da foto quando a pagina nao carrega
+
+______________________ LISTAS COM HTML ____________________________
+<ul> listas sem ordem
+<ol> listas ordenadas
+<li> essa tag vai dentro das tags <ul> e <ol> sendo o conteúdo das listas
