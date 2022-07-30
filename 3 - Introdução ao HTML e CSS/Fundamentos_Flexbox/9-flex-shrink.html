@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Shrink</title>
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            margin: 5px;
+            background-color: blueviolet;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .s-1 {
+            flex-shrink: 1;
+        }
+
+        .s-2 {
+            flex-shrink: 2;
+        }
+
+        .s-3 {
+            flex-shrink: 3;
+        }
+
+        .fg-1 {
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>flex-shrink: 1</p>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">CB</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">BBBBBB bb b </div>
+        <div class="item s-1 fg-1">CC CCCC CCC C</div>
+        <div class="item s-1 fg-1">DDD DD D </div>
+    </div>
+    <p>flex-shrink: 0 / basis: 100px</p>
+    <div class="flex-container">
+        <div class="item s-0 fg-1">AA</div>
+        <div class="item s-0 fg-1">BBB BBB BB BB BBB</div>
+        <div class="item s-0 fg-1">C CCC CCCCC CCCC</div>
+        <div class="item s-0 fg-1">D DDDDD DDDD DDDD</div>
+        <div class="item s-0 fg-1">EEEE EEE EEE</div>
+    </div>
+    <p>flex-shrink: mix /basis: 100px</p>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">AAA </div>
+        <div class="item s-2 fg-1">BBB BBBB B BBB</div>
+        <div class="item s-2 fg-1">CCC CCC C</div>
+        <div class="item s-3 fg-1">dvvdd fdse d dfe </div>
+    </div>
+</body>
+
+</html>
